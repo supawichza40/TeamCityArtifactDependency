@@ -2,4 +2,6 @@ import sys
 
 sys.argv
 
-print(sys.argv[1], "This is Dear")
+input_file = open(sys.argv[1])
+
+print(input_file.readline(), "This is Dear")
